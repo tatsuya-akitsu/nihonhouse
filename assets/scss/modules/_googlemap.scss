@@ -1,0 +1,14 @@
+.vue-map-container {
+  width: 100%;
+  height: auto;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 40rem;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 35rem;
+    }
+  }
+}

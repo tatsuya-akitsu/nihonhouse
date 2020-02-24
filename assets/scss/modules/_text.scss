@@ -1,0 +1,135 @@
+// タイトル
+.md-ttl {
+  line-height: 1;
+}
+
+.md-ttl--h1 {
+  font-family: $font-min;
+  font-size: 6rem;
+  font-weight: bold;
+  color: $base-wh;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 4rem;
+  }
+}
+
+.md-ttl--h2 {
+  font-family: $font-min;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: $base-bl;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2.4rem;
+  }
+}
+
+// テキスト
+.md-text {
+  font-weight: normal;
+  color: $base-bl;
+  text-align: left;
+}
+
+.logo-desc {
+  font-family: $font-min;
+  font-size: 1.6rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+.logo-text {
+  display: inline-block;
+  padding: .5rem;
+  font-family: $font-block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1;
+  border: 1px solid $base-wh;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+}
+
+.md-text--style01 {
+  font-family: $font-block;
+  font-size: 1rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: .8rem;
+  }
+}
+
+.md-text--style02 {
+  font-family: $font-block;
+  font-size: 1.4rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+.md-text--style03 {
+  font-family: $font-block;
+  font-size: 1.2rem;
+}
+
+.md-text--style04 {
+  font-family: $font-block;
+  font-size: 1.6rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+}
+
+.header-catch {
+  margin: 1.2rem 0 0;
+  font-family: $font-block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $base-wh;
+  text-align: center;
+}
+.header-desc {
+  margin: 1.4rem 0 0;
+  font-family: $font-block;
+  font-size: 1.6rem;
+  color: $base-wh;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+}
+
+.prop-num {
+  padding: 1rem 1.2rem;
+  font-family: $font-min;
+  font-size: 2rem;
+  color: $base-wh;
+  line-height: 1;
+  background-color: $base-color;
+
+  @media screen and (max-width: 768px) {
+    padding: .8rem 1rem;
+    font-size: 1.8rem;
+  }
+}
+.prop-amount {
+  margin: 1.4rem 0 0;
+  font-family: $font-block;
+  font-size: 1.4rem;
+}
+
+.copyright {
+  small {
+    font-family: $font-block;
+    font-size: 1.2rem;
+    color: $base-bl;
+  }
+}

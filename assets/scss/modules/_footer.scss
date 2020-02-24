@@ -1,0 +1,50 @@
+.md-footer {
+  margin: 20rem 0 7.8rem;
+  padding: 1rem 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 10rem 0 6.7rem;
+  }
+
+  &.md-footer--contact {
+    margin: 6rem 0 0;
+  }
+
+  .md-wrapper {
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+}
+
+.md-footer-list {
+  @media screen and (max-width: 768px) {
+    margin: 0 auto;
+    margin-bottom: 1.4rem;
+  }
+  .footer-item {
+    border-right: 1px solid $base-bl;
+
+    &:nth-last-of-type(1) {
+      border-right: none;
+    }
+  }
+
+  .footer-link {
+    padding: .5rem 1.2rem;
+    font-family: $font-block;
+    font-size: 1.2rem;
+    color: $base-bl;
+  }
+}
+
+.contact-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 1.4rem 3rem;
+  width: 100%;
+  text-align: center;
+  background-color: #f1f1f1;
+}

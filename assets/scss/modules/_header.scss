@@ -1,0 +1,50 @@
+.md-header {
+  margin: 10rem 0 0;
+  background-image: url('/images/main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (max-width: 768px) {
+    margin: 8.8rem 0 0;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 56rem;
+    background-image: url('/images/timelapse_dot.png');
+    background-repeat: repeat;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 35rem;
+    }
+  }
+}
+
+.header-main-image {
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
+}
+
+.md-header--contact {
+  margin: 0 auto;
+  padding: 0 3rem;
+  width: 100%;
+  max-width: 1200px;
+
+  @media screen and (max-width: 768px) {
+    padding: 1rem 1.6rem;
+  }
+
+  .logo-text {
+    border: 1px solid $base-bl;
+  }
+}

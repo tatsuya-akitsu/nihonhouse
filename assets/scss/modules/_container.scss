@@ -1,0 +1,199 @@
+.nav-wrapper {
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.md-section {
+  margin: 15rem 0 0;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    margin: 10rem 0 0;
+  }
+
+  &.md-section--readme {
+    margin: 0;
+    padding: 7rem 0;
+    background-color: #f1f1f1;
+
+    @media screen and (max-width: 768px) {
+      padding: 4rem 0;
+    }
+    .md-ttl--h2 {
+      margin: 0 auto;
+      padding: 0 3rem;
+      max-width: 1200px;
+      text-align: center;
+    }
+    .md-text--style02 {
+      margin: 0 auto;
+      padding: 0 3rem;
+      max-width: 1200px;
+      text-align: center;
+    }
+
+    .intro-wrap {
+      margin: 0 auto;
+      margin-top: 4rem;
+      padding: 2rem;
+      border: 1px solid $base-bl;
+      border-radius: 5px;
+      max-width: 780px;
+
+      @media screen and (max-width: 768px) {
+        width: calc(100% - 3.2rem);
+      }
+
+      .intro-list {
+        width: 100%;
+
+        .intro-item {
+          margin: .5rem 0 0;
+          font-family: $font-block;
+          font-size: 1.4rem;
+          color: $base-bl;
+
+          @media screen and (max-width: 768px) {
+            font-size: 1.2rem;
+          }
+
+          &::before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 1rem 0 0;
+            width: 2rem;
+            height: 2rem;
+            background-image: url('/images/check.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            @media screen and (max-width: 768px) {
+              width: 1.6rem;
+              height: 1.6rem;
+            }
+          }
+
+          &:nth-of-type(1) {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &.md-section--location {
+    .md-ttl--h2 {
+      margin: 0 auto;
+      padding: 0 3rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+    .md-inner {
+      text-align: center;
+
+      .md-btn {
+        margin: 3rem 0 0;
+      }
+
+      .md-text--style02 {
+        margin: 1.4rem 0 0;
+        text-align: center;
+      }
+    }
+  }
+
+  &.md-section--information {
+    .md-ttl--h2 {
+      margin: 0 auto;
+      padding: 0 3rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .info-outline {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 780px;
+
+      @media screen and (max-width: 768px) {
+        width: calc(100% - 3.2rem);
+      }
+
+      .info-item {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 1rem 2rem 0 0;
+
+        .info-label {
+          display: inline-block;
+          vertical-align: middle;
+          padding: .5rem 1rem;
+          font-family: $font-block;
+          font-weight: 600;
+          font-size: 1.2rem;
+          color: $base-wh;
+          line-height: 1;
+          background-color: $base-color;
+        }
+        .info-text {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 0 0 1rem;
+          font-family: $font-block;
+          font-size: 1.2rem;
+          color: $base-bl;
+        }
+      }
+    }
+  }
+
+  &.md-section--outline {
+    .md-wrapper {
+      margin: 0 auto;
+      max-width: 980px;
+    }
+  }
+
+  &.md-section--form {
+    margin: 8rem 0 0;
+
+    @media screen and (max-width: 768px) {
+      margin: 5rem 0 0;
+    }
+
+    .md-wrapper {
+      margin: 0 auto;
+      max-width: 980px;
+    }
+  }
+
+  &.md-section--complete {
+    margin: 8rem 0 0;
+    text-align: center;
+
+    .md-text--style04 {
+      margin: 0 0 3rem;
+      text-align: center;
+    }
+  }
+}
+
+.md-wrapper {
+  margin: 0 auto;
+  padding: 0 3rem;
+  width: 100%;
+  max-width: 1200px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 1.6rem;
+  }
+}
+
+.md-inner {
+  margin: 5rem 0 0;
+}

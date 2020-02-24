@@ -1,0 +1,203 @@
+.md-form {
+  text-align: center;
+  width: 100%;
+
+  .md-text--style03 {
+    margin: 0 0 2rem;
+  }
+}
+
+.md-form-item {
+  margin: 3rem 0 0;
+  align-items: flex-start;
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+
+  &:nth-of-type(1) {
+    margin: 0;
+  }
+
+  &:nth-last-of-type(1) {
+    margin: 3rem 0 4rem;
+  }
+}
+
+.md-form-wrap {
+  margin: 3rem 0 0;
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.md-form-container {
+  .md-form-item {
+    label {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+
+    .md-form-control {
+      display: block;
+      margin: 2rem 0 0;
+    }
+  }
+}
+
+label {
+  margin: 0 2rem 0 0;
+  font-size: 0;
+  width: 25rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 0  1.6rem 0;
+    display: block;
+  }
+
+  .md-form-label {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: $font-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $base-bl;
+    background: linear-gradient(transparent 70%, $base-color 70%);
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.4rem;
+      line-height: 1;
+      background: linear-gradient(transparent 60%, $base-color 60%);
+    }
+  }
+
+  .md-form-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 1rem;
+    padding: .5rem .9rem;
+    font-family: $font-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $base-wh;
+    line-height: 1;
+    background-color: #c62828;
+    border-radius: 3px;
+
+    @media screen and (max-width: 768px) {
+      padding: .3rem .7rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+input[type="text"],
+input[type="tell"],
+input[type="email"],
+input[type="number"],
+select {
+  padding: .8rem 1rem;
+  font-family: $font-block;
+  font-size: 1.6rem;
+  color: $base-bl;
+  line-height: 1;
+  border-radius: 3px;
+  border:solid 1px #ccc;
+  width: 40rem;
+  
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
+
+  &.is-small {
+    width: 25rem;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &:-moz-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &::-moz-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &:-ms-input-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &:focus {
+    outline: $base-color;
+    transition: 0.3s;
+  }
+}
+
+textarea {
+  padding: .8rem 1rem;
+  font-family: $font-block;
+  font-size: 1.6rem;
+  color: $base-bl;
+  line-height: 1;
+  border-radius: 3px;
+  border:solid 1px #ccc;
+  width: 40rem;
+  height: 200px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 160px;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &:-moz-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &::-moz-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &:-ms-input-placeholder {
+    color: $base-color;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  &:focus {
+    outline: $base-color;
+    transition: 0.3s;
+  }
+}

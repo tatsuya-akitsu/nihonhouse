@@ -1,0 +1,167 @@
+.sales-wrap {
+  width: 100%;
+}
+
+.md-sales-box {
+  margin: 5rem 0 0;
+  width: 32%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  &:nth-of-type(1) {
+    margin: 0;
+  }
+  &:nth-of-type(2) {
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+      margin: 5rem 0 0;
+    }
+  }
+  &:nth-of-type(3) {
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+      margin: 5rem 0 0;
+    }
+  }
+
+  .md-sales-img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .md-sales-img-wrap {
+    width: 100%;
+    height: auto;
+
+    &::before {
+      content: '';
+      display: block;
+      padding-top: 56.25%;
+    }
+
+    img {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+
+.md-sales-body {
+  margin: 3rem 0 0;
+  width: 100%;
+
+  .facility-num {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem 0 0;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    color: $base-wh;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: $base-color;
+  }
+
+  .md-text--style02 {
+    margin: 2rem 0 0;
+  }
+
+  .md-btn {
+    margin: 2rem 0 0;
+  }
+}
+
+.prop-list {
+  margin: 1.6rem 0 0;
+  padding: 0 0 0 1.6rem;
+
+  .prop-item {
+    position: relative;
+    padding: .3rem 0 0;
+    font-family: $font-block;
+    font-size: 1.4rem;
+    color: $base-bl;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: -1.6rem;
+      transform: translate(0, -50%);
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background-color: $base-color;
+
+      @media screen and (max-width: 768px) {
+        left: -1.4rem;
+        width: .8rem;
+        height: .8rem;
+      }
+    }
+  }
+}
+
+// 周辺環境
+.info-slide-wrap {
+  padding: 3rem 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.VueCarousel-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+}
+.info-img-wrap {
+  width: 100%;
+  height: auto;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+  }
+
+  img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+}
+
+.info-body {
+  margin: 3rem 0 0;
+  padding: 0 2rem;
+}
+
+.VueCarousel-dot {
+  .VueCarousel-dot-button {
+    background: #ddd !important;
+  }
+
+  &.VueCarousel-dot--active {
+    .VueCarousel-dot-button {
+      background: $base-color !important;
+    } 
+  }
+}

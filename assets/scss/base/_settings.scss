@@ -1,0 +1,66 @@
+// *************************************
+//
+//   Settings
+//   -> Fonts, Variables
+//
+// *************************************
+
+// -------------------------------------
+//   Variables
+// -------------------------------------
+
+// ----- Base Colors ----- //
+$base-bl: #191919;
+$base-wh: #fff;
+$base-color: #9b9077;
+$link-color: #1f70b5;
+
+// ----- Base Content ----- //
+$base-fontFamily: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", "Lato", "arial", "helvetica", sans-serif;
+$font-min: "Georgia", "游明朝", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "HGS明朝E", "メイリオ", "Meiryo", serif;
+$font-block: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", "Lato", "arial", "helvetica", sans-serif;
+$baseFont-size: 1.6rem;
+$base-lineHeight: 1.6;
+$yug: "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", sans-serif;
+
+// ----- Base Layout ----- //
+
+// ----- Content ----- //
+
+// ----- Layout ----- //
+$l-Width: 100%;
+
+.fle-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fle-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fle-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.is-pc {
+  @media screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.is-sp {
+  @media screen and (min-width: 769px) {
+    display: none !important;
+  }
+}
