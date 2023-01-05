@@ -21,7 +21,7 @@
     "historykana": "^1.0.4",
     "i": "^0.3.6",
     "npm": "^6.13.7",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.15.8",
     "prerender-spa-plugin": "^3.4.0",
     "smoothscroll": "^0.4.0",
     "style-loader": "^1.1.3",
